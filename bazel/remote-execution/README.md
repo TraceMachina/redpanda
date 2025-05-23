@@ -24,7 +24,7 @@ Navigate to the the Remote Execution tab for steps 5 and 6.
 ![A picture of the scheduler URL](<scheduler-validation.jpg>)
 _the underlined text should go to in the `.bazelrc`_
 
-6. If you skipped steps 1 and 2, click `Advanced` and add the value for image under Configuration as `tracemarcus/nativelink-redpanda-executor:latest`. Otherwise, enter the location of the Docker image you published for remote execution using a similar format.
+6. If you skipped steps 1 and 2, click `Advanced` and add the value for image under Configuration as `tracemarcus/nativelink-redpanda-executor:latest`, and under Container image as `299166832260.dkr.ecr.us-east-2.amazonaws.com/nativelink-rbe:27fa8eefb23040d7d7f6186dfe906c97ac18d235f9fe27bf160c9a0697750049`. If you did complete steps 1 and 2, enter the location of the Docker image you published for remote execution using a similar format, while the value of Container image stays the same.
 
 ![location of remote execution docker image](rbe-image.png)
 
