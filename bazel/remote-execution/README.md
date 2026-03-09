@@ -13,7 +13,7 @@ To enable remote execution in Nativelink, developers need to take the following 
 
 2. (optional, and takes minutes) Build the Dockerfile in this directory, which incorporates artifact produced in step 1. 
 
-3. Create a cloud account at [app.nativelink.com](https://app.nativelink.com).
+3. Create a cloud account at [dev.nativelink.com](https://dev.nativelink.com).
 
 4. Copy the values in Quickstart and append them to the `.bazelrc` in your project.
 
