@@ -1,0 +1,5 @@
+--- a/BUILD.bazel
++++ b/BUILD.bazel
+@@ -68,1 +68,1 @@
+-    includes = ["src/include"],
++    includes = ["src/include", "."],
